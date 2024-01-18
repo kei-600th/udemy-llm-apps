@@ -29,4 +29,5 @@ SQLiteにデータのインポート
 ~~~
 .tables
 select * from category limit 10;
+.exit
 ~~~
