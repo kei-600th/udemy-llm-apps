@@ -1,4 +1,6 @@
 .env
 /100knocks-preprocess/
 
+/.streamlit/secrets.toml
+
 *.db
