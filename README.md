@@ -11,3 +11,22 @@
 - poetry install
 
 - poetry add streamlit@1.25.0
+
+SQLiteのインストール
+
+- sudo apt update
+
+- sudo apt install -y sqlite3
+
+SQLiteにデータのインポート
+
+- poetry run python init_sqlite.py
+
+データベースに接続してデータの確認
+
+- sqlite3 sample.db
+
+~~~
+.tables
+select * from category limit 10;
+~~~
